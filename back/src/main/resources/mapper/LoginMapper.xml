@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.heeexy.example.dao.LoginDao">
+<mapper namespace="com.rainsamuel.disklink.dao.LoginDao">
 
     <select id="checkUser" resultType="com.alibaba.fastjson.JSONObject">
         SELECT u.id userId
@@ -12,7 +12,7 @@
     </select>
 
 
-    <resultMap id="userInfo" type="com.heeexy.example.dto.session.SessionUserInfo">
+    <resultMap id="userInfo" type="com.rainsamuel.disklink.dto.session.SessionUserInfo">
         <id column="userId" property="userId"/>
         <result column="username" property="username"/>
         <result column="nickname" property="nickname"/>

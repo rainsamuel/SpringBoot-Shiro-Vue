@@ -41,7 +41,7 @@
     <logger name="org.mybatis" level="INFO"/>
     <logger name="org.springframework" level="WARN"/>
     <logger name="org.apache" level="WARN"/>
-    <logger name="com.heeexy.example" level="DEBUG"/>
+    <logger name="com.rainsamuel.disklink" level="DEBUG"/>
     <!--如果需要打印SQL,可以把下面的级别设置为DEBUG -->
-    <logger name="com.heeexy.example.dao" level="DEBUG"/>
+    <logger name="com.rainsamuel.disklink.dao" level="DEBUG"/>
 </configuration>
