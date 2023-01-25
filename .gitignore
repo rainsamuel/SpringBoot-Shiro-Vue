@@ -30,3 +30,4 @@ package-lock.json
 .settings/
 .classpath
 .project
+back/src/main/resources/application-local.yml
